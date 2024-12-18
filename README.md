@@ -25,6 +25,7 @@ Clone the repository:
 git clone <repository-url>
 cd interpreter
 ```
+## Project Structure
 ```
 interpreter/
 │
@@ -51,7 +52,7 @@ interpreter/
 
 ## How to Build and Run
 
-Build the Project
+### Build the Project
 
 Use the provided Makefile to compile the project:
 ```
@@ -59,7 +60,7 @@ make
 ```
 This will generate an executable file named interpreter.
 
-Run the Program
+### Run the Program
 
 To run the interpreter, use the following command:
 ```
@@ -73,7 +74,7 @@ To ensure all components work correctly, run the test suite:
 ```
 make test
 ```
-Clean the Project
+### Clean the Project
 
 To remove generated files (executables and object files), run:
 ```
@@ -95,6 +96,7 @@ Result: 9
 
 The lexer scans the input string and breaks it into tokens:
 
+```
 TOKEN_NUMBER: Numeric values (e.g., 123)
 
 TOKEN_PLUS: Plus operator (+)
@@ -110,6 +112,7 @@ TOKEN_LPAREN: Left parenthesis (()
 TOKEN_RPAREN: Right parenthesis ())
 
 TOKEN_EOF: End of input
+```
 
 ### Parser
 
@@ -143,5 +146,5 @@ Segmentation Fault: This may occur if input validation is skipped. Use proper te
 
 ## Author
 
-Developed by Barun ADhikari.
+Developed by Barun Adhikari.
 
