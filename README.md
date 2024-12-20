@@ -18,7 +18,7 @@ Before running this project, ensure you have the following installed:
 - **Make** utility (optional but recommended for automation)
 - A **UNIX-like environment** (Linux, macOS, or WSL for Windows)
 
-## Installation
+## Installation 
 
 Clone the repository:
 ```bash
